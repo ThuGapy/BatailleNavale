@@ -20,7 +20,7 @@ public class Bataille {
 		initGrille(grilleOrdi);
 		
 		// Initialise la grille de l'ordinateur avec des bateaux placés aléatoirements
-		initGrilleComparaison();
+		initGrilleOrdi();
 		
 		// Vide la arraylist contenant les tirs aléatoires déjà fait
 		tirDejaFait.clear();
@@ -533,7 +533,7 @@ public class Bataille {
 	/**
 	 * Fonction qui permet d'initialiser la grille de l'ordinateur avec des bateaux aléatoires
 	 */
-	public static void initGrilleComparaison() {
+	public static void initGrilleOrdi() {
 		// Déclaration des variables
 		int ligne;
 		int colonne;
