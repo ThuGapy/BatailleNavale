@@ -183,7 +183,7 @@ public class Bataille {
 		// On boucle dans les bateaux de la HashMap "idBateaux"
 		for (Map.Entry<String, Integer> bateau : idBateaux.entrySet()) {
 			// On dit au joueur le bateau qu'il doit placer
-			System.out.println("Placer votre " + bateau.getKey() + ", celui-ci est gros de " + grandeurBateaux.get(bateau.getValue()) + " cases");
+			System.out.println("Placez votre " + bateau.getKey() + ", celui-ci est gros de " + grandeurBateaux.get(bateau.getValue()) + " cases");
 			
 			do {
 				// On obtenir le choix de positionnement du joueur
@@ -408,7 +408,7 @@ public class Bataille {
 		Direction direction = null;
 		
 		// Message à l'utilisateur lui demandant d'entrer H pour horizontal ou V pour vertical
-		System.out.println("Choisissez la direction du bateau (H = Horizontal, V = Vertical");
+		System.out.println("Choisissez la direction du bateau (H = Horizontal, V = Vertical)");
 		
 		do {
 			// On lit le choix de l'utilisateur
